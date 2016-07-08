@@ -3,7 +3,7 @@
 (function(){
   angular
   .module("numbers",[])
-  .controller("numbersController", numberController)
+  .controller("numbers_controller", numberController)
 
   function numberController(){
     var vm = this;
